@@ -1,0 +1,12 @@
+1 => Proje N-Tier mimari paternine göre yazýlacaktýr.
+
+2 => Projede açýlacak katmanlar
+ENTITIES,
+DAL,
+BLL,
+API - UI (Projemizi dýþarý açmak istedigimiz için açtýðýmýz ayrý bir katmandýr),
+CoreBlog(MVC olarak düþünülmüþtür)
+
+3 => Katman isimleri Project ile baslayarak . sembolünden sonra katmansal takýlarla bitecektir(Project.ENTITIES vs...)
+
+4 => Projede deðiþken isimleri degiþkenler local variable oldugu sürece camelCase, field oldugu sürece basýnda _ sembolü olmak üzere camelCase; Property, metot ve class isimleri PascalCase standartlarýnda yazýlacaktýr ve projede Türkçe karakter kullanýlmayacaktýr. CLass isimleri kesinlikle cogul olmayacaktýr.
