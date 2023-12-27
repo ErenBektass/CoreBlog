@@ -10,3 +10,21 @@ CoreBlog(MVC olarak düþünülmüþtür)
 3 => Katman isimleri Project ile baslayarak . sembolünden sonra katmansal takýlarla bitecektir(Project.ENTITIES vs...)
 
 4 => Projede deðiþken isimleri degiþkenler local variable oldugu sürece camelCase, field oldugu sürece basýnda _ sembolü olmak üzere camelCase; Property, metot ve class isimleri PascalCase standartlarýnda yazýlacaktýr ve projede Türkçe karakter kullanýlmayacaktýr. CLass isimleri kesinlikle cogul olmayacaktýr.
+
+Projede Kullanýlan Kütüphaneler ve Teknolojiler
+
+* Entity Framework Repository oluþturuldu.
+* Partial View ve Await Async kullanýldý.
+* Include Metodu Ve Eager Load kullanýldý.
+* View Component Ýle Parametre Kullanýmý gerçekleþtirildi.
+* Httpget Ve Httppost Attributeleri kullanýldý.
+* Fluent Validation iþlemleri yapýldý.
+* Authentication Ve Controller Seviyesinde Authorize yapýldý.
+* Session Ýle Oturum Yönetimi gerçekleþtirildi.
+* Parametreli Trigger Kullanýmý.
+* Excel Dinamik ve Statik raporlar oluþturulup excele dökümantasyon olarak listelendi.
+* Api Üzerinden Hava Durumu Bilgisi Çekme iþlemleri yapýldý.
+* Ajax ile Ekleme,Silme,Güncelleme iþlemleri yapýldý.
+* Swagger Ve Api Get List iþlemleri oluþturuldu.
+* Identity Ýle Giriþ Yapan Kullanýcýlarýn bilgilerini Getirme iþlemleri yapýldý.
+* JsonWebToken Postman Üzerinde Token Oluþturma iþlemleri yapýldý.
