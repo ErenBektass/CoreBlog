@@ -1,6 +1,13 @@
-﻿<div class="tech-btm">
-	<form method="post">
-        <input type="email" id="txtmail" name="Mail" class="tech-btm"/>
+﻿
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+<div class="tech-btm">
+    <p>Toknoloji, yazılım ve diğer bloglar </p>
+    <form action="/NewsLetter/SubscribeMail" method="post">
+        <input type="email" id="mail" placeholder="Email" required="" name="Mail">
         <input type="submit" id="btn" value="Abone ol">
 	</form>
 </div>
@@ -9,7 +16,7 @@
 
     $('#btn').click(function (){ 
         let values = {
-            Mail:$("txtmail").val()
+            Mail: $("#mail").val()
         };
 
         $.ajax({
