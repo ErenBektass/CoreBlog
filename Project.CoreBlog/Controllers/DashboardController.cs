@@ -13,7 +13,7 @@ namespace Project.CoreBlog.Controllers
             var writerid=mc.Writers.Where(x => x.Email == userMail).Select(y => y.WriterID).FirstOrDefault();
 
             ViewBag.v1=mc.Blogs.Count().ToString();
-            ViewBag.v2=mc.Blogs.Where(x=>x.WriterID==writerid).Count(); //Blog sayısını burdan düzeltirsin
+            ViewBag.v2 = mc.Blogs.Where(x => x.WriterID == 1).Count(); //Blog sayısını burdan düzeltirsin 1 yazılan yere writerid yazıcagiz
             ViewBag.v3=mc.Categories.Count();
             return View();
         }
