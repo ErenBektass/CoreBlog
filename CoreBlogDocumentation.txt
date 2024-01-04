@@ -13,18 +13,19 @@ CoreBlog(MVC olarak düþünülmüþtür)
 
 Projede Kullanýlan Kütüphaneler ve Teknolojiler
 
+* Proje Asp.Net Core 7.0  ile yazýlmýþtýr.
 * Entity Framework Repository oluþturuldu.
 * Partial View ve Await Async kullanýldý.
-* Include Metodu Ve Eager Load kullanýldý.
-* View Component Ýle Parametre Kullanýmý gerçekleþtirildi.
+* Include Metodu ve Eager Load kullanýldý.
+* View Component kullanýldý.
 * Httpget Ve Httppost Attributeleri kullanýldý.
 * Fluent Validation iþlemleri yapýldý.
-* Authentication Ve Controller Seviyesinde Authorize yapýldý.
-* Session Ýle Oturum Yönetimi gerçekleþtirildi.
+* Authentication Ve Controller seviyesinde Authorize yapýldý.
+* Session yönetimi gerçekleþtirildi.
 * Parametreli Trigger Kullanýmý.
-* Excel Dinamik ve Statik raporlar oluþturulup excele dökümantasyon olarak listelendi.
+* Dinamik ve Statik raporlar oluþturulup Excel formatýna dönüþtürülebilmesi saðlandý.
 * Api Üzerinden Hava Durumu Bilgisi Çekme iþlemleri yapýldý.
 * Ajax ile Ekleme,Silme,Güncelleme iþlemleri yapýldý.
-* Swagger Ve Api Get List iþlemleri oluþturuldu.
+* Swagger ile API dökümantasyonu oluþturuldu.
 * Identity Ýle Giriþ Yapan Kullanýcýlarýn bilgilerini Getirme iþlemleri yapýldý.
-* JsonWebToken Postman Üzerinde Token Oluþturma iþlemleri yapýldý.
+* JsonWebToken Postman üzerinde token oluþturma iþlemleri yapýldý.
